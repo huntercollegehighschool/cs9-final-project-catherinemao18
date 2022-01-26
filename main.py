@@ -113,7 +113,7 @@ def onepersononboat():
   print("Now you have to make the choice of who deserves to leave the island. You do have the option to save yourself.")
   print("")
 
-  choice = input("Who do you want to place on the boat? Enter Old Man, Infant, Pregant Person, Best Friend, or Yourself: ")
+  choice = input("Who do you want to place on the boat? Enter Old Man, Infant, Pregnant Person, Best Friend, or Yourself: ")
 
   while choice.lower() != "old man" and choice.lower() != "infant" and choice.lower() != "infant" and choice.lower() != "pregnant person" and choice.lower() != "best friend" and choice.lower() != "yourself":
     choice = input(str("You must choose 'old man' or 'infant' or 'infant' or 'pregnant person' or 'best friend' or 'yourself': "))
@@ -140,7 +140,7 @@ def onepersononboat():
   elif choice == "pregnant person":
     print("You chose to save the pregnant person.")
     print("")
-    print("The pregant person floats away, leaving the rest of the group to wither away on the island. Slowly but surely, all of you die of starvation, exposure, and exhaustion.")
+    print("The pregnant person floats away, leaving the rest of the group to wither away on the island. Slowly but surely, all of you die of starvation, exposure, and exhaustion.")
     print("")
     print("The pregnant person goes into labor at sea. Because of lack of proper medical care, the baby dies. The mother is heartbroken.")
     print("")
